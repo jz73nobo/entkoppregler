@@ -1,0 +1,33 @@
+Configuration for markdown-preview-enhanced to show (also) gitlab style markdown correctly:
+
+
+    "markdown-preview-enhanced.breakOnSingleNewLine": false,
+    "markdown-preview-enhanced.mathBlockDelimiters": [
+        [
+          "$$",
+          "$$"
+        ],
+        [
+          "\\[",
+          "\\]"
+        ],
+        [
+            "```math",
+            "```"
+        ],  
+    ],
+    "markdown-preview-enhanced.mathInlineDelimiters": [
+        [
+            "$`",
+            "`$"
+        ],
+        [
+          "$",
+          "$"
+        ],
+        [
+          "\\(",
+          "\\)"
+        ]
+    ]
+    
